@@ -1,0 +1,47 @@
+html, body {
+    background-image: url("https://kepkuldes.com/images/6206be55ed15e7ec8daec199bf41e20b.md.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+h1 {
+    font-family: cursive;
+    color: rgba(113, 63, 10, 0.9);
+}
+h2, h3, p {
+    font-family: cursive;
+    color: rgba(7, 0, 0, 0.863);
+    font-size: 25px;
+    font: optional;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+.links {
+    text-align: right;
+    font-size: 33px;
+    margin: 15px;
+    line-height: 0.5;
+}
+ul, li {
+    font-size: 25px;
+    font-family: cursive;
+    font-variant: small-caps;
+}
+h1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    filter: grayscale(20%);
+}
